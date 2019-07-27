@@ -1,0 +1,28 @@
+#header-img{
+  width: 125px;
+  height: 80px;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#nav-bar {
+    width: 100%;
+    display: table;
+    margin: auto;
+}
+
+a.nav-link {
+    display: table-cell;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+}
+@media screen and (min-width:600px) {
+  a.nav-link{
+    width: 75px;
+  }
+}

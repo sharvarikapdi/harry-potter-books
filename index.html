@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HP</title>
+    <link rel="stylesheet" href="./product.css">
+    <style>
+    #header-img{
+      width: 125px;
+      height: 80px;
+    }
+    #header {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+    #nav-bar {
+        width: 100%;
+        display: table;
+        margin: auto;
+    }
+
+    a.nav-link {
+        display: table-cell;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        width: 120px;
+    }
+    @media screen and (min-width:600px) {
+      a.nav-link{
+        width: 75px;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0KOka10DYyJoZIID6ierl8OdITXPonVQdgwMpSHdnVd493vA" alt="HP logo"/>
+      <nav id="nav-bar">
+        <a class="nav-link" target="_self" href="#books">
+          Books
+        </a>
+        <a class="nav-link" target="_self" href="#movies">
+          Movies
+        </a>
+        <a class="nav-link" target="_self" href="#store">
+          Store
+        </a>
+        <a href="#author" target="_self" class="nav-link">
+          J. K. Rowling
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section id="books">
+        <p>
+
+        </p>
+      </section>
+      <section id="movies">
+        <video id="video" src="https://www.youtube.com/watch?v=f9BLIrkj9Qw" autoplay >
+        </video>
+      </section>
+      <section id="store">
+
+      </section>
+      <section id="author">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input type="email" id="email" name="email" placeholder="Enter email to subscribe to newsletter!">
+          <input type="submit" id="submit" name="subscribe" value="Subscribe"></input>
+        </form>
+      </section>
+    </main>
+
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
